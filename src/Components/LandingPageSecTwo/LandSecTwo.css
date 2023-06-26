@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+/* font-family: 'Raleway', sans-serif; */
+/* font-family: 'IBM Plex Mono', monospace; */
+* {
+    box-sizing: border-box;
+}
+.masterWrapper2{
+    padding:5em 0em;
+    color:white;
+}
+.masterWrapper2 > h1{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.masterWrapper2 > p  {
+    width:100%;
+    max-width: 70%;
+    text-align: center;
+    margin: 2em auto 5em auto;
+    font-family: 'IBM Plex Mono', monospace;
+    color:gray;
+}
+.RecentOneWrapper{
+    margin-bottom: 5em;
+}
+.RecentOneWrapper .linked> img {
+    max-width: 100%;
+    height:0%;
+    object-fit: cover;
+    border-radius: .7em;
+    transition:.4s;
+}
+.RecentOneWrapper .linked > h3 {
+    margin:1em 0em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 1.7rem;
+}
+.RecentOneWrapper .linked > p {
+    color:gray;
+    font-family: 'IBM Plex Mono', monospace;
+    line-height: 22px;
+    margin-bottom: 1em;
+}
+.SeeDetails{
+    background: green;
+    color:white;
+    padding:.3em 1em;
+    text-decoration: none;
+    border-radius: .3em;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: .9rem;
+}
+.linked{
+    position: relative;
+}
+.linkedIcon{
+    display: none;
+    position: absolute;
+    top:.5em;
+    right:.5em;
+    font-size: 1.7rem;
+    cursor: pointer;
+    margin:.5em;
+}
+.linked:hover > img {
+    opacity: .4;
+}
+.linked:hover .linkedIcon{
+    display: block;
+}
+@media only screen and (max-width:800px){
+    .masterWrapper2 > p {
+        max-width: 100%;
+    }
+    .RecentOneWrapper .linked > p {
+        text-align: justify;
+    }
+}

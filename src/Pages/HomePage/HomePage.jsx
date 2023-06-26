@@ -8,7 +8,7 @@ const HomePage = () => {
     <>
       <Container>
         <LandSecOne/>  
-        {/* <LandSecTwo/> */}
+        <LandSecTwo/>
       </Container>
     </>
   )
