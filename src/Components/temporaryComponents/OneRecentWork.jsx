@@ -4,7 +4,7 @@ import { Col } from 'react-bootstrap';
 import { FaLink } from "react-icons/fa";
 
 const OneRecentWork = ({ datas }) => {
-    const { image, link, name, title } = datas;
+    const { image, name, title } = datas;
     return (
         <Col lg>
             <div className="RecentOneWrapper">
