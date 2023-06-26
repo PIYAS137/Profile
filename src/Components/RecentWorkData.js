@@ -1,5 +1,5 @@
 import BarAppImage from './Images/BarApp.png'
-import MyProtFolio from './Images/MyProtFolio.png'
+import MyProtFolio from './Images/MyP.png'
 export const RecentWorkArr=[
     {
         id:1,
