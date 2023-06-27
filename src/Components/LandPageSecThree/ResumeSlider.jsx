@@ -1,9 +1,8 @@
 import Edu from "./WonderBundle/Edu";
-import Refe from "./WonderBundle/Refe";
 import Skill from "./WonderBundle/Skill";
 
 const ResumeSlider = ({data}) => {
-    const {skill,edu,refe}=data;
+    const {skill,edu}=data;
     
     if(skill){
         return(
@@ -12,10 +11,6 @@ const ResumeSlider = ({data}) => {
     }else if(edu){
         return(
             <Edu/>
-        )
-    }else{
-        return(
-            <Refe/>
         )
     }
 }
