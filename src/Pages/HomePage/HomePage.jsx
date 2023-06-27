@@ -2,6 +2,7 @@ import React from 'react'
 import LandSecOne from '../../Components/LandingPageSecOne/LandSecOne'
 import {Container} from 'react-bootstrap'
 import LandSecTwo from '../../Components/LandingPageSecTwo/LandSecTwo'
+import LandSecThree from '../../Components/LandPageSecThree/LandSecThree'
 
 const HomePage = () => {
   return (
@@ -9,6 +10,7 @@ const HomePage = () => {
       <Container>
         <LandSecOne/>  
         <LandSecTwo/>
+        <LandSecThree/>
       </Container>
     </>
   )

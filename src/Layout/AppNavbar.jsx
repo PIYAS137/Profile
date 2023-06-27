@@ -17,7 +17,7 @@ const AppNavbar = () => {
                 <Nav.Link as={NavLink} to="/projects">Projects</Nav.Link>
                 
 {/* --------------------- */}
-                <NavDropdown title="Project By Lang" id="collasible-nav-dropdown">
+                {/* <NavDropdown title="Project By Lang" id="collasible-nav-dropdown">
                 <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.2">
                     Another action
@@ -27,7 +27,7 @@ const AppNavbar = () => {
                 <NavDropdown.Item href="#action/3.4">
                     Separated link
                 </NavDropdown.Item>
-                </NavDropdown>
+                </NavDropdown> */}
 {/* --------------------- */}
 
 
