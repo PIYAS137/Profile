@@ -36,9 +36,9 @@ const AppNavbar = () => {
                 
             </Nav>
             <Nav>
-                <Nav.Link style={{fontSize:"1.2rem"}} href="#deets"><FaLinkedinIn/></Nav.Link>
-                <Nav.Link style={{fontSize:"1.2rem",marginLeft:"-1.5em"}} href="#deets"><FaFacebookF/></Nav.Link>
-                <Nav.Link style={{fontSize:"1.2rem",marginLeft:"-1.5em"}} href="#deets"><FaTwitter/></Nav.Link>
+                <Nav.Link className='linkedin' style={{fontSize:"1.2rem"}} target="_blank" href="https://www.linkedin.com/in/piyasmahamudealif/"><FaLinkedinIn/></Nav.Link>
+                <Nav.Link className='specialLink facebook' style={{fontSize:"1.2rem"}} target="_blank" href="https://www.facebook.com/piyasmahamude.alif.9/"><FaFacebookF/></Nav.Link>
+                <Nav.Link className='specialLink twitter' style={{fontSize:"1.2rem"}} target="_blank" href="https://twitter.com/AlifPiyas"><FaTwitter/></Nav.Link>
             </Nav>
             </Navbar.Collapse>
         </Container>

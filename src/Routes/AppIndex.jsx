@@ -4,7 +4,6 @@ import HomePage from '../Pages/HomePage/HomePage';
 import ErrorPage from '../Pages/Errorpage/ErrorPage';
 import ContactPage from '../Pages/ContactPage/ContactPage';
 import ProjectPage from '../Pages/Projectpage/ProjectPage';
-import ProjectSubPage from '../Pages/Projectpage/SubPage/ProjectSubPage';
 import ResumePage from '../Pages/ResumePage/ResumePage';
 import AppNavbar from '../Layout/AppNavbar';
 
@@ -15,7 +14,6 @@ const AppIndex = () => {
     <Routes>
     <Route path='/' element={<HomePage/>}/>
     <Route path='/projects' element={<ProjectPage/>}/>
-    <Route path='/projects/title' element={<ProjectSubPage/>}/>
     <Route path='/resume' element={<ResumePage/>}/>
     <Route path='/contact' element={<ContactPage/>}/>
     <Route path='*' element={<ErrorPage/>}/>

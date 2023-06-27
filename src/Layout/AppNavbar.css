@@ -19,6 +19,28 @@ nav.bg-body-tertiary.navbar.navbar-expand-lg.navbar-light.bg-dark{
 nav .container{
     padding: 1em 5em;
 }
-.nav-link:nth-child(2) {
-
+@media only screen and (max-width:1200px) {
+    nav .container{
+        padding: 1em 3em;
+    }
+}
+.specialLink{
+    margin-left: -1.5em;
+}
+@media only screen and (max-width: 990px) {
+    .specialLink{
+        margin-left: 0em;
+    }
+}
+.linkedin:hover{
+    color:#0e76a8!important;
+    transform: scale(1.1);
+}
+.facebook:hover{
+    color:#3b5998!important;
+    transform: scale(1.1);
+}
+.twitter:hover{
+    color:#00acee!important;
+    transform: scale(1.1);
 }

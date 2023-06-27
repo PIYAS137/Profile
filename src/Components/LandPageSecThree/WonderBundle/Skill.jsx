@@ -3,7 +3,7 @@ import React from 'react'
 const Skill = () => {
   return (
     <>
-    <h1 style={{marginBottom:"1em"}}>Skills</h1>
+    <h1 style={{marginBottom:"1em",color:"white"}}>Skills</h1>
     <div className="Skillwrapper">
     <span className='level0'>00%</span>
     <span className='level10'>10%</span>
