@@ -1,14 +1,13 @@
-import React from 'react'
-import {Container} from 'react-bootstrap'
+import { Container } from 'react-bootstrap'
 import './ContactPage.css'
-
+import { useRef } from 'react'
+import emailjs from '@emailjs/browser';
+import LandPageSecFive from '../../Components/LandPageSecFive/LandPageSecFive';
 
 const ContactPage = () => {
   return (
     <Container>
-      <div className="contactPageWrapper">
-        <h1>piyas</h1>
-      </div>
+      <LandPageSecFive/>
     </Container>
   )
 }

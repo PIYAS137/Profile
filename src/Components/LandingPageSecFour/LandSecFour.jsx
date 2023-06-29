@@ -10,8 +10,7 @@ const LandSecFour = () => {
             <div className='clientWrapper'>
                 {InspireArr.map((one) => {
                     return (
-
-                        <div className="box">
+                        <div className="box" key={one.id}>
                             <FaQuoteLeft className='quote' />
                             <p>{one.desk}</p>
                             <div className="tempoClientWrapper">
