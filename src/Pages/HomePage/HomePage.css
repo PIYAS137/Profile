@@ -11,6 +11,7 @@ html{
     top:85%;
     right:1%;
     animation: fly 2s linear infinite;
+    z-index: 1000;
 }
 @keyframes fly {
     0%{top:85%}
