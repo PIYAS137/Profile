@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import { Col } from 'react-bootstrap';
 import { FaLink } from "react-icons/fa";
 
@@ -15,7 +14,7 @@ const OneRecentWork = ({ datas }) => {
                     </a>
                     <h3>{name}</h3>
                     <p>{title}</p>
-                    <Link className='SeeDetails'>See Details...</Link>
+                    <a href='#' className='SeeDetails'>Visite Web..?</a>
                 </div>
             </div>
         </Col>

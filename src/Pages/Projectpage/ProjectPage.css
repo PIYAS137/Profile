@@ -60,6 +60,10 @@
     border-radius: .3em;
     font-family: 'IBM Plex Mono', monospace;
     font-weight: bold;
+    transition: 0.3s;
+}
+.left > a:hover {
+    background: linear-gradient(120deg, rgba(0, 255, 255, 0), red)!important;
 }
 .right{
     width:100%;

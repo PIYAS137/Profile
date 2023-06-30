@@ -2,6 +2,30 @@ nav .active{
     /* color:#C90000!important; */
     color:forestgreen!important;
 }
+
+.navbar-toggler:focus{
+    box-shadow: 0 0 0 0!important;
+    outline: 0!important;
+}
+.navbar-toggler{
+    padding:0em .3em!important;
+}
+@media only screen and (max-width:991px){
+    .linkedin{
+        transform: scale(1)!important;
+    }
+    .facebook{
+        transform: scale(1)!important;
+    }
+    .twitter{
+        transform: scale(1)!important;
+    }
+    .specialLink{
+        margin-left: 0em;;
+    }
+}
+
+
 nav.bg-body-tertiary.navbar.navbar-expand-lg.navbar-light.bg-dark{
     background-color: #1B1B1B!important;
     max-width: 1300px;
@@ -10,6 +34,7 @@ nav.bg-body-tertiary.navbar.navbar-expand-lg.navbar-light.bg-dark{
     border-bottom-left-radius: 1em;
     border-bottom-right-radius: 1em;
 }
+
 .nav-link{
     padding:.5em 1.5em!important;
 }

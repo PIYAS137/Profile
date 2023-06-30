@@ -20,7 +20,7 @@ const Edu = () => {
       <div className="eduRight">
             <p>2019-2021</p>
             <h3>Shaheed Police Smrity College</h3>
-            <h5>Higher Secondary S. Cirtificate : Science</h5>
+            <h5>Higher Secondary C. Cirtificate : Science</h5>
             <p>Mirpur, Dhaka, Bangladesh</p>
           </div>
           <div className="eduLeft">

@@ -1,0 +1,32 @@
+
+html{
+    scroll-behavior:smooth;
+}
+
+.goUp{
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top:85%;
+    right:1%;
+    animation: fly 2s linear infinite;
+}
+@keyframes fly {
+    0%{top:85%}
+    50%{top:83%}
+    100%{top:85%}
+}
+.rocket{
+    color:rgb(177, 177, 177)!important;
+    transform: rotate(-90deg);
+}
+.fire{
+    color:#FADC00;
+    transform: rotate(180deg);
+    opacity: .7;
+    animation: down 1s infinite;
+}
+@keyframes down {
+    0%{}
+}

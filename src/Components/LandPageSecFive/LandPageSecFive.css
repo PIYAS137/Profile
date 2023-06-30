@@ -23,7 +23,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     background: #242424;
-    /* box-shadow: rgba(157, 157, 157, 0.48) 2px 2px 16px 0px, rgba(25, 25, 25, 0.8) -2px -2px 16px 0px; */
+    overflow: hidden;
 }
 
 .contactSectionWrapper::after {
@@ -31,9 +31,9 @@
     font-family: sans-serif;
     font-size: 10rem;
     position: absolute;
-    top:-8%;
-    opacity:.1;
-    left:20%;
+    top: -8%;
+    opacity: .1;
+    left: 20%;
     color: rgba(218, 165, 32, 0.241);
     font-family: 'Cormorant Garamond', serif;
     font-weight: bold;
@@ -77,11 +77,13 @@
     color: rgb(222, 222, 222);
     border-bottom: 1px solid transparent;
 }
-.secFiveLeft>form>input:focus{
+
+.secFiveLeft>form>input:focus {
     border-bottom: 1px solid #FDCA00;
     outline: none;
 }
-.secFiveLeft>form>textarea:focus{
+
+.secFiveLeft>form>textarea:focus {
     border-bottom: 1px solid #FDCA00;
     outline: none;
 }

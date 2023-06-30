@@ -5,6 +5,8 @@ import LandSecTwo from '../../Components/LandingPageSecTwo/LandSecTwo'
 import LandSecThree from '../../Components/LandPageSecThree/LandSecThree'
 import LandSecFour from '../../Components/LandingPageSecFour/LandSecFour'
 import LandPageSecFive from '../../Components/LandPageSecFive/LandPageSecFive'
+import './HomePage.css'
+import { FaSpaceShuttle,FaGripfire } from "react-icons/fa";
 
 const HomePage = () => {
   return (
@@ -16,6 +18,10 @@ const HomePage = () => {
         <LandSecFour/>
         <LandPageSecFive/>
       </Container>
+      <div className="goUp">
+        <a href="#"><FaSpaceShuttle className='rocket'/></a>
+        <FaGripfire className='fire'/>
+      </div>
     </>
   )
 }
