@@ -8,7 +8,7 @@ const LandSecOne = () => {
         <div className="masterWrapper">
             <div className='LandPageSecOneWrapper'>
                 <div className="scrollIcons">
-                    <FaAngleDoubleDown className='scrollIcon' />
+                    {/* <FaAngleDoubleDown className='scrollIcon' /> */}
                 </div>
                 <div className="LPSOLeftRightWrapper">
                     <div className="LPSOLeft">
