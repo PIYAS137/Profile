@@ -2,7 +2,7 @@ import React from 'react'
 import '../LandingPageSecOne/LandSecOne.css'
 import Piyas from '../Images/Piyas.jpg'
 import { FaAngleDoubleDown } from "react-icons/fa";
-import CountUp from 'react-countup'
+import {CountUp} from 'react-countup'
 
 const LandSecOne = () => {
     return (
