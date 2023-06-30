@@ -2,7 +2,6 @@ import React from 'react'
 import '../LandingPageSecOne/LandSecOne.css'
 import Piyas from '../Images/Piyas.jpg'
 import { FaAngleDoubleDown } from "react-icons/fa";
-import {CountUp} from 'react-countup'
 
 const LandSecOne = () => {
     return (
@@ -27,10 +26,10 @@ const LandSecOne = () => {
 
                 <div className="heroFooter">
                     <div className="leftEx">
-                        <h1 style={{fontSize:"3rem"}}><CountUp start={0} end={3} duration={3} delay={0}/>+</h1><sub style={{marginLeft:".5em",marginTop:"1em"}}>Year Exp</sub>
+                        <h1 style={{fontSize:"3rem"}}>3+</h1><sub style={{marginLeft:".5em",marginTop:"1em"}}>Year Exp</sub>
                     </div>
                     <div className="midPro">
-                        <h1 style={{fontSize:"3rem"}}><CountUp start={0} end={15} duration={5} delay={0}/>+</h1><sub style={{marginLeft:".5em",marginTop:"1em"}}>Project</sub>
+                        <h1 style={{fontSize:"3rem"}}>15+</h1><sub style={{marginLeft:".5em",marginTop:"1em"}}>Project</sub>
                     </div>
                     <div className="rightCom">
                         <div className="topCom">Work With : </div>
