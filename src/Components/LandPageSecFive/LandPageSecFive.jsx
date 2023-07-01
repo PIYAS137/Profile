@@ -52,9 +52,9 @@ const LandPageSecFive = () => {
             <p>Call Me : +880 13 1551 3173 <br />10.00 AM - 10.00 PM</p>
             <h4>Follow Me,</h4>
             <div className="secFiveIcons">
-                <a href="#"><FaLinkedinIn id='linkFive' className='CIcon'/></a>
-                <a href="#"><FaFacebookF id='facebookFive' className='CIcon'/></a>
-                <a href="#"><FaTwitter id='twitterFive' className='CIcon'/></a>
+                <a target='blank' href="https://www.linkedin.com/in/piyasmahamudealif/"><FaLinkedinIn id='linkFive' className='CIcon'/></a>
+                <a target='blank' href="https://www.facebook.com/piyasmahamude.alif.9/"><FaFacebookF id='facebookFive' className='CIcon'/></a>
+                <a target='blank' href="https://twitter.com/AlifPiyas"><FaTwitter id='twitterFive' className='CIcon'/></a>
             </div>
         </div>
 
