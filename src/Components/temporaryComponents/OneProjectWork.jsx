@@ -9,7 +9,7 @@ const OneProjectWork = ({ data }) => {
                     <button style={{cursor:"default", color: `${tightColor}`, backgroundColor: `${liteColor}` }}>BROWNF0X</button>
                     <h2>{name}</h2>
                     <p>{title}</p>
-                    <a style={{ backgroundColor: `${tightColor}` }} href={link}>View Project...</a>
+                    <a target="_blank" style={{ backgroundColor: `${tightColor}` }} href={link}>View Project...</a>
                 </div>
                 <div className="right" style={{ backgroundImage: `url(${image})` }}></div>
             </div>
@@ -22,7 +22,7 @@ const OneProjectWork = ({ data }) => {
                     <button style={{cursor:"default", color: `${tightColor}`, backgroundColor: `${liteColor}` }}>BROWNF0X</button>
                     <h2>{name}</h2>
                     <p style={{maxWidth:"100%"}}>{title}</p>
-                    <a style={{ backgroundColor: `${tightColor}` }} href={link}>View Project...</a>
+                    <a target="_parent" style={{ backgroundColor: `${tightColor}` }} href={link}>View Project...</a>
                 </div>
             </div>
         )
